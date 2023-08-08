@@ -8,4 +8,5 @@ public class Submission
 {
     public Color color;
     public AudioClip sound;
+    public float volume = 1;
 }

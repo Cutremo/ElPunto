@@ -40,6 +40,7 @@ public class Punto : MonoBehaviour
     {
         icon.color = selected.color;
         source.clip = selected.sound;
+        source.volume = selected.volume;
         source.Play();
     }
 
