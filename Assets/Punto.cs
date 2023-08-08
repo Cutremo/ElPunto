@@ -20,9 +20,6 @@ public class Punto : MonoBehaviour
 
     public void Click()
     {
-        if(source.isPlaying)
-            return;
-
         ShowNext();
     }
 
