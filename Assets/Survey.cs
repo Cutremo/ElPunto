@@ -25,7 +25,7 @@ public class Survey : ScriptableObject, IEnumerable<Submission>
         {
             if(submissions.All(x => x.sound != clip))
             {
-                submissions.Add(new Submission(clip, Color.black, 1));
+                submissions.Add(new Submission(clip, Color.black, 1, false));
             }
         }
 
