@@ -79,6 +79,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: cd4366add9dd7914fb92db74331920a2, type: 3}
   - {fileID: 8300000, guid: 27366ef405090a1488784b6a38612886, type: 3}
   - {fileID: 8300000, guid: 402f74589c6f4144a99f6fa97af88b3e, type: 3}
+  - {fileID: 8300000, guid: d1d6bfa546f310d40b5f8ee5af4939e0, type: 3}
   submissions:
   - color: {r: 0.69411767, g: 0.70980394, b: 0.3019608, a: 1}
     sound: {fileID: 8300000, guid: b64f7bc349f9826418683d89819949ad, type: 3}
@@ -420,3 +421,7 @@ MonoBehaviour:
     sound: {fileID: 8300000, guid: 402f74589c6f4144a99f6fa97af88b3e, type: 3}
     volume: 1
     loopable: 0
+  - color: {r: 0.97, g: 0, b: 0.07, a: 1}
+    sound: {fileID: 8300000, guid: d1d6bfa546f310d40b5f8ee5af4939e0, type: 3}
+    volume: 1
+    loopable: 1
