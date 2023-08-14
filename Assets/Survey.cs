@@ -23,7 +23,7 @@ public class Survey : ScriptableObject, IEnumerable<Submission>
     {
         foreach(var clip in clips.Where(clip => submissions.All(x => x.sound != clip)))
         {
-            submissions.Add(new Submission(clip, Color.black, 1));
+            submissions.Add(new Submission(clip, Color.black, 1, false));
         }
 
         submissions = submissions.Where(x => x.sound != null).ToList();
