@@ -21,12 +21,9 @@ public class Survey : ScriptableObject, IEnumerable<Submission>
 
     void OnValidate()
     {
-        foreach(var clip in clips)
+        foreach(var clip in clips.Where(clip => submissions.All(x => x.sound != clip)))
         {
-            if(submissions.All(x => x.sound != clip))
-            {
-                submissions.Add(new Submission(clip, Color.black, 1));
-            }
+            submissions.Add(new Submission(clip, Color.black, 1));
         }
 
         submissions = submissions.Where(x => x.sound != null).ToList();
