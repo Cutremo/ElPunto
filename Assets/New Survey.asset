@@ -79,6 +79,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: cd4366add9dd7914fb92db74331920a2, type: 3}
   - {fileID: 8300000, guid: 27366ef405090a1488784b6a38612886, type: 3}
   - {fileID: 8300000, guid: 402f74589c6f4144a99f6fa97af88b3e, type: 3}
+  - {fileID: 8300000, guid: b733dc870a13153409575f42c51040c8, type: 3}
   submissions:
   - color: {r: 0.69411767, g: 0.70980394, b: 0.3019608, a: 1}
     sound: {fileID: 8300000, guid: b64f7bc349f9826418683d89819949ad, type: 3}
@@ -103,6 +104,9 @@ MonoBehaviour:
     volume: 1
   - color: {r: 0.8235294, g: 0.9843137, b: 0.654902, a: 1}
     sound: {fileID: 8300000, guid: 3a9fdcab2064f874cbe076d2f73a9ed0, type: 3}
+    volume: 1
+  - color: {r: 0.13725491, g: 0.7490196, b: 0.627451, a: 1}
+    sound: {fileID: 8300000, guid: d0ac7b4647874e54c992a900fa9f5330, type: 3}
     volume: 1
   - color: {r: 0.1254902, g: 0.6117647, b: 0.93333334, a: 1}
     sound: {fileID: 8300000, guid: 261769478dda39b4dbbe679adefc8dfe, type: 3}
@@ -296,6 +300,9 @@ MonoBehaviour:
   - color: {r: 1, g: 0.78431374, b: 0.49803922, a: 1}
     sound: {fileID: 8300000, guid: d0a30026ea7802d4ea7ad478b91b0745, type: 3}
     volume: 1
+  - color: {r: 0.67058825, g: 0.16470589, b: 0.24313726, a: 1}
+    sound: {fileID: 8300000, guid: b733dc870a13153409575f42c51040c8, type: 3}
+    volume: 1
   - color: {r: 0.28235295, g: 0.37254903, b: 0.28627452, a: 1}
     sound: {fileID: 8300000, guid: 69f4007772fbd124db462ca8ccf00641, type: 3}
     volume: 1
@@ -334,4 +341,7 @@ MonoBehaviour:
     volume: 1
   - color: {r: 1, g: 0.14901961, b: 0.74509805, a: 1}
     sound: {fileID: 8300000, guid: 402f74589c6f4144a99f6fa97af88b3e, type: 3}
+    volume: 1
+  - color: {r: 1, g: 0, b: 0, a: 1}
+    sound: {fileID: 8300000, guid: 34e20f6d99e3dc846b27faf5ea6abb79, type: 3}
     volume: 1
